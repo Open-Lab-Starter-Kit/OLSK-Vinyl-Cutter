@@ -8,7 +8,7 @@
 Specifications V1
 --
 
-<div align="center"><img src="media/vinyl_2.png" width="100%"></div>
+<div align="center"><img src="media/vynil_2.png" width="100%"></div>
 
 - cutting area: 350mm
 - frame: CNC milled 3mm aluminum 
@@ -16,8 +16,8 @@ Specifications V1
 - guides: 8mm linear shafts
 - motors: stepper NEMA 17
 
-<div align="center"><img src="media/vinyl_3.png" width="100%"></div>
-<div align="center"><img src="media/vinyl_4.png" width="100%"></div>
+<div align="center"><img src="media/vynil_2.png" width="100%"></div>
+<div align="center"><img src="media/vynil_4.png" width="100%"></div>
 
 Author
 --
