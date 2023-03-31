@@ -1,6 +1,6 @@
 <div align="center"><h1 style=align="center">OLSK Vinyl Cutter V1</h1></div>
 
-<div align="center"><img src="media/OLSK-Vinyl-Cutter.jpg" width="100%"></div>
+<div align="center"><img src="media/vinyl_1.png" width="100%"></div>
 <div align="center"><i>Open Source Vinyl Cutter - Open Lab Starter Kit</i></div>
 
 <br>
@@ -8,11 +8,16 @@
 Specifications V1
 --
 
+<div align="center"><img src="media/vinyl_2.png" width="100%"></div>
+
 - cutting area: 350mm
 - frame: CNC milled 3mm aluminum 
 - motion: GT2 10mm belt
 - guides: 8mm linear shafts
 - motors: stepper NEMA 17
+
+<div align="center"><img src="media/vinyl_3.png" width="100%"></div>
+<div align="center"><img src="media/vinyl_4.png" width="100%"></div>
 
 Author
 --
