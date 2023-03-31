@@ -16,7 +16,7 @@ Specifications V1
 - guides: 8mm linear shafts
 - motors: stepper NEMA 17
 
-<div align="center"><img src="media/vynil_2.png" width="100%"></div>
+<div align="center"><img src="media/vynil_3.png" width="100%"></div>
 <div align="center"><img src="media/vynil_4.png" width="100%"></div>
 
 Author
