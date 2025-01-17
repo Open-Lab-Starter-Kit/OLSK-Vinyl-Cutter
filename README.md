@@ -19,6 +19,15 @@ Specifications V1
 <div align="center"><img src="media/vynil_3.png" width="100%"></div>
 <div align="center"><img src="media/vynil_4.png" width="100%"></div>
 
+Files
+--
+
+- **[BOM](BOM)**
+- **[CAD](cad)**
+- **[Settings](settings)**
+- **[Assembly Workbook](OLSK_VinylCutter_V1_Workbook.pdf)**
+- **[Wiring Schematic](OLSK_Vinyl_Cutter_V1_WiringSchematic.pdf)**
+
 Author
 --
 <img src="https://irp.cdn-website.com/2b5ccdcd/dms3rep/multi/InMachines_Logo_positive_white.png" width="50%">
