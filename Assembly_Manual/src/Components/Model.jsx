@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useContext, useState, useMemo } from "react";
 import { OutlineEffect } from "three/examples/jsm/effects/OutlineEffect.js"
 import { extend, useThree } from "@react-three/fiber";
 import { BackSide, Mesh, Box3, Group, BufferGeometry, MeshBasicMaterial, EdgesGeometry, LineBasicMaterial, LineSegments, BoxGeometry } from 'three'
-import { ModelContext } from "./ModelContext.jsx";
+import { ModelContext } from "/ModelContext.jsx";
 import { useCallback } from "react";
 import { Selection } from "@react-three/postprocessing";
 
