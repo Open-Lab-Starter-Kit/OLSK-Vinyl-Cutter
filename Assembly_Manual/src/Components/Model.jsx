@@ -2,11 +2,13 @@ import React, { useRef, useEffect, useContext, useState, useMemo } from "react";
 import { OutlineEffect } from "three/examples/jsm/effects/OutlineEffect.js"
 import { extend, useThree } from "@react-three/fiber";
 import { BackSide, Mesh, Box3, Group, BufferGeometry, MeshBasicMaterial, EdgesGeometry, LineBasicMaterial, LineSegments, BoxGeometry } from 'three'
-import { ModelContext } from "/ModelContext.jsx";
+import { ModelContext } from "./ModelContext.jsx";
 import { useCallback } from "react";
 import { Selection } from "@react-three/postprocessing";
+import { invalidate } from "@react-three/fiber";
 
-import { computeBoundsTree, disposeBoundsTree, acceleratedRaycast } from 'three-mesh-bvh';
+
+//import { computeBoundsTree, disposeBoundsTree, acceleratedRaycast } from 'three-mesh-bvh';
 import * as THREE from 'three';
 import useInterface from "/stores/useInterface"
 
@@ -24,9 +26,9 @@ const stepsNamesNavi = []
 export default function Model({ modelIn, modelOut, modelInCopy, modelInCopy2, modelOutCopy }) {
 
     //Bvh - for selecting parts by clicking on the 3d model
-    THREE.BufferGeometry.prototype.computeBoundsTree = computeBoundsTree;
-    THREE.BufferGeometry.prototype.disposeBoundsTree = disposeBoundsTree;
-    THREE.Mesh.prototype.raycast = acceleratedRaycast;
+    //THREE.BufferGeometry.prototype.computeBoundsTree = computeBoundsTree;
+    //THREE.BufferGeometry.prototype.disposeBoundsTree = disposeBoundsTree;
+    //THREE.Mesh.prototype.raycast = acceleratedRaycast;
 
     console.log("render count")    //counts how many times the Model is executed
 
@@ -123,8 +125,8 @@ export default function Model({ modelIn, modelOut, modelInCopy, modelInCopy2, mo
                 stepsNames.push(children.name) //for title
                 stepsNamesNavi.push(children.userData.name) //for navigation
             }
-
-        }, [])
+        }
+            , [])
 
 
         //sorts the step titles in the correct order for title
@@ -154,8 +156,8 @@ export default function Model({ modelIn, modelOut, modelInCopy, modelInCopy2, mo
 
         setCurrentStepObj(modelInCopy.getObjectByName(stepName[0]))
         setCurrentObj(model.getObjectByName(stepName[0]))
-
         partsListChange()
+        invalidate()
 
     }, [])
 
@@ -178,18 +180,16 @@ export default function Model({ modelIn, modelOut, modelInCopy, modelInCopy2, mo
     }, [stepName, stepCount])
 
     useEffect(() => {
-        console.log(currentStepObject)
         partsListChange()
     }, [stepName, stepCount, currentStepObject])
 
     useEffect(() => {
         if (currentModel) {
-
             setCurrentObject(currentModel.getObjectByName(stepName[stepCount])) //assigns the model of current step
             if (selectedParts != []) {
                 highlightParts()
             }
-
+            invalidate()
         }
     }, [selectedParts, currentModel])
 

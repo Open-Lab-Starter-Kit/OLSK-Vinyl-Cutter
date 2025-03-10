@@ -71,11 +71,13 @@ export default function App() {
                             frameloop='demand'
                             camera={{
                                 fov: 45,
-                                near: 1,
+                                near: 0.0001,
                                 far: 10,
                                 position: [4, 1, 8]
                             }}
                         >
+                            {/* <PerspectiveCamera makeDefault fov={45} near={0.001} far={1000} position={[4, 1, 8]} /> */}
+
                             <Controls />
                             <color args={['#f5f5f5']} attach="background" />
                             {/*                             <Perf position="bottom-right" />

@@ -16,7 +16,6 @@ export default create(subscribeWithSelector((set) => {
 
         resetCamera: () => {
             set(() => {
-
                 return { cameraPositionTag: 'initial' }
             })
         },
