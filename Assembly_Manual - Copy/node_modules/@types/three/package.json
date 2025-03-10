@@ -1,0 +1,53 @@
+{
+    "name": "@types/three",
+    "version": "0.174.0",
+    "description": "TypeScript definitions for three",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/three",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Josh Ellis",
+            "githubUsername": "joshuaellis",
+            "url": "https://github.com/joshuaellis"
+        },
+        {
+            "name": "Nathan Bierema",
+            "githubUsername": "Methuselah96",
+            "url": "https://github.com/Methuselah96"
+        }
+    ],
+    "type": "module",
+    "main": "",
+    "types": "index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./build/three.module.js",
+            "require": "./build/three.cjs"
+        },
+        "./examples/fonts/*": "./examples/fonts/*",
+        "./examples/jsm/*": "./examples/jsm/*",
+        "./addons": "./examples/jsm/Addons.js",
+        "./addons/*": "./examples/jsm/*",
+        "./src/*": "./src/*",
+        "./webgpu": "./build/three.webgpu.js",
+        "./tsl": "./build/three.tsl.js",
+        "./package.json": "./package.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/three"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@tweenjs/tween.js": "~23.1.3",
+        "@types/stats.js": "*",
+        "@types/webxr": "*",
+        "@webgpu/types": "*",
+        "fflate": "~0.8.2",
+        "meshoptimizer": "~0.18.1"
+    },
+    "peerDependencies": {},
+    "typesPublisherContentHash": "42b773a4ca2b467bb5f631194fbba7e91c3510c11d419d1c442487b3e4c90b2e",
+    "typeScriptVersion": "5.0"
+}
