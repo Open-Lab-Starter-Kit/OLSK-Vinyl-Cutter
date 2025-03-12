@@ -1,32 +1,30 @@
-<div align="center"><h1 style=align="center">OLSK Vinyl Cutter V1</h1></div>
+<div align="center"><h1 style=align="center">OLSK Vinyl Cutter V2</h1></div>
 
-<div align="center"><img src="media/vinyl_1.png" width="100%"></div>
+<div align="center"><img src="media/OLSK_VinylCutter_V2_1.png" width="100%"></div>
 <div align="center"><i>Open Source Vinyl Cutter - Open Lab Starter Kit</i></div>
 
 <br>
 
-Specifications V1
+Specifications V2
 --
 
-<div align="center"><img src="media/vynil_2.png" width="100%"></div>
+<div align="center"><img src="media/OLSK_VinylCutter_V2_2.png" width="100%"></div>
 
-- cutting area: 350mm
+- cutting area: 300mm
 - frame: CNC milled 3mm aluminum 
-- motion: GT2 10mm belt
-- guides: 8mm linear shafts
-- motors: stepper NEMA 17
+- motion: Belt and linear guide
+- drivers: TMC drivers with 1/256 microstepping interpolation
 
-<div align="center"><img src="media/vynil_3.png" width="100%"></div>
-<div align="center"><img src="media/vynil_4.png" width="100%"></div>
+<div align="center"><img src="media/OLSK_VinylCutter_V2_3.png" width="100%"></div>
 
 Files
 --
 
 - **[BOM](BOM)**
 - **[CAD](cad)**
-- **[Settings](settings)**
-- **[Assembly Workbook](OLSK_VinylCutter_V1_Workbook.pdf)**
-- **[Wiring Schematic](OLSK_Vinyl_Cutter_V1_WiringSchematic.pdf)**
+- **[Firmware](firmware)**
+- **[Assembly Steps](OLSK_Vinyl_Cutter_V2_AssemblySteps.pdf)**
+- **[Wiring Schematic](OLSK_Vinyl_Cutter_V2_WiringSchematic.pdf)**
 
 Author
 --
@@ -37,7 +35,7 @@ Author
 OLSK Vinyl Cutter has been designed and built by **[InMachines Ingrassia GmbH](https://www.inmachines.net/)**.
 
 Machine design:
-- **[Daniele Ingrassia](https://www.linkedin.com/in/danieleingrassia/)**
+- **[Wilhelm Schütze](http://fabacademy.org/archives/2015/sa/students/schutze.wilhelm/index.html)**
 
 The machine is part of the **[Open Lab Starter Kit (OLSK)](https://www.inmachines.net/open-lab-starter-kit)** group of open source digital fabrication machines.
 
