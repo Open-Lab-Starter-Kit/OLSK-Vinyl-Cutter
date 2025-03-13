@@ -1,29 +1,36 @@
-<div align="center"><h1 style=align="center">OLSK Vinyl Cutter V2</h1></div>
+<div align="center"><h1 style=align="center">OLSK Vinyl Cutter V3</h1></div>
 
-<div align="center"><img src="media/OLSK_VinylCutter_V2_1.png" width="100%"></div>
+<div align="center"><img src="media/OLSK_Vinyl_Cutter_V3_1.png" width="100%"></div>
 <div align="center"><i>Open Source Vinyl Cutter - Open Lab Starter Kit</i></div>
 
 <br>
 
-Specifications V2
+The Assembly Manual
 --
 
-<div align="center"><img src="media/OLSK_VinylCutter_V2_2.png" width="100%"></div>
+All OLSK machines are open source and have an assembly manual, the BOM and necessary files available in this repository for replication. The assembly manual is an interactive 3D guide though each step and contains a list of parts, tools and instruction remarks, which follows a logic order to provide a smooth assembly.
+
+- **[Assembly Manual](https://open-lab-starter-kit.github.io/OLSK-Vinyl-Cutter/)**
+
+<br>
+Specifications V3
+--
+
+<div align="center"><img src="media/OLSK_Vinyl_Cutter_V3_2.jpg" width="100%"></div>
 
 - cutting area: 300mm
 - frame: CNC milled 3mm aluminum 
 - motion: Belt and linear guide
 - drivers: TMC drivers with 1/256 microstepping interpolation
 
-<div align="center"><img src="media/OLSK_VinylCutter_V2_3.png" width="100%"></div>
+<div align="center"><img src="media/OLSK_Vinyl_Cutter_V3_4.jpg" width="100%"></div>
 
 Files
 --
 
 - **[CAD](cad)**
 - **[Firmware](firmware)**
-- **[Assembly Steps](OLSK_Vinyl_Cutter_V2_AssemblySteps.pdf)**
-- **[Wiring Schematic](OLSK_Vinyl_Cutter_V2_WiringSchematic.pdf)**
+- **[Wiring Schematic](OLSK_Vinyl_Cutter_V3_WiringSchematic.pdf)**
 
 Author
 --
