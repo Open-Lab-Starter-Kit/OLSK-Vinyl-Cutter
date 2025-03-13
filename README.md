@@ -20,7 +20,6 @@ Specifications V2
 Files
 --
 
-- **[BOM](BOM)**
 - **[CAD](cad)**
 - **[Firmware](firmware)**
 - **[Assembly Steps](OLSK_Vinyl_Cutter_V2_AssemblySteps.pdf)**
