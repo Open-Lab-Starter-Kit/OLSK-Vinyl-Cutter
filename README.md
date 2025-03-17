@@ -8,7 +8,7 @@
 The Assembly Manual
 --
 
-All OLSK machines are open source and have an assembly manual, the BOM and necessary files available in this repository for replication. The assembly manual is an interactive 3D guide though each step and contains a list of parts, tools and instruction remarks, which follows a logic order to provide a smooth assembly.
+All OLSK machines are open source and have an assembly manual, the BOM and necessary files available in this repository for replication. The assembly manual is an interactive 3D guide though each step and contains a list of parts, tools and instruction remarks, which follows a logical order to provide a smooth assembly.
 
 - **[Assembly Manual](https://open-lab-starter-kit.github.io/OLSK-Vinyl-Cutter/)**
 
@@ -20,11 +20,17 @@ All OLSK machines are open source and have an assembly manual, the BOM and neces
 Specifications V3
 --
 
-
-- cutting area: 300mm
+- cutting area: A3
 - frame: CNC milled 3mm aluminum 
 - motion: Belt and linear guide
 - drivers: TMC drivers with 1/256 microstepping interpolation
+- decoupled motors
+- continuous duty solenoid
+- pinch rollers: 4 units with bistable locking mechanism
+- indicator lights
+- software: OLOS
+- job preview
+- file manager
 
 <div align="center"><img src="media/OLSK_Vinyl_Cutter_V3_4.jpg" width="100%"></div>
 
@@ -70,3 +76,15 @@ Hardware design, CAD and PCB files, BOM, settings and other technical or design 
 Assembly manual, pictures, videos, presentations, description text and other type of media are released under the following license:
 
 - Creative-Commons-Attribution-ShareAlike 4.0 International - **[CC BY-SA 4.0](LICENSE_CC_BY_SA_4.0.txt)**
+
+
+Previous version
+--
+
+The previous versions of OLSK machines will always be available. 
+
+**[OLSK Vinyl Cutter V2 Repository](OLSK_Vinyl_Cutter_V2)** 
+<div><img src="media/OLSK_VinylCutter_V2_1.png" width="30%"></div>
+
+**[OLSK Vinyl Cutter V1 Repository](OLSK_Vinyl_Cutter_V1)** 
+<div><img src="media/vinyl_1.png" width="30%"></div>
