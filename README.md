@@ -13,10 +13,13 @@ All OLSK machines are open source and have an assembly manual, the BOM and neces
 - **[Assembly Manual](https://open-lab-starter-kit.github.io/OLSK-Vinyl-Cutter/)**
 
 <br>
+<div align="center"><img src="media/OLSK_Vinyl_Cutter_V3_2.jpg" width="100%"></div>
+
+<br>
+
 Specifications V3
 --
 
-<div align="center"><img src="media/OLSK_Vinyl_Cutter_V3_2.jpg" width="100%"></div>
 
 - cutting area: 300mm
 - frame: CNC milled 3mm aluminum 
