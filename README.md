@@ -39,6 +39,8 @@ Files
 
 - **[CAD](cad)**
 - **[Firmware](firmware)**
+- **[Settings](settings)**
+- **[BOM](OLSK_Vinyl_Cutter_V3-BOM.xlsx)**
 - **[Wiring Schematic](OLSK_Vinyl_Cutter_V3_WiringSchematic.pdf)**
 
 Author
