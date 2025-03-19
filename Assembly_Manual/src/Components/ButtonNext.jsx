@@ -3,7 +3,7 @@ import { ModelContext } from './ModelContext.jsx'
 
 export default function ButtonNext() {
 
-    let { setStepPosition, stepCount } = useContext(ModelContext)
+    let { setStepPosition, stepCount, stepList } = useContext(ModelContext)
 
     const buttonClickNext = () => {
 
@@ -22,7 +22,7 @@ export default function ButtonNext() {
         {stepCount >= 1 ?
             <button onClick={buttonClickPrevious} className="btn" id="nextStep" > &#10094; Previous Step &nbsp;</button> : null}
 
-        <button onClick={buttonClickNext} className="btn" id="nextStep">Next Step &#10095; </button>
+        {stepList && stepCount + 1 <= stepList.length - 1 ? <button onClick={buttonClickNext} className="btn" id="nextStep">Next Step &#10095; </button> : null}
     </>
 }
 
