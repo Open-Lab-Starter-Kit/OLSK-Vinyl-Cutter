@@ -21,7 +21,7 @@ Specifications V3
 --
 
 - cutting area: A3
-- frame: CNC milled 3mm aluminum 
+- frame: CNC milled 3mm aluminum
 - motion: Belt and linear guide
 - drivers: TMC drivers with 1/256 microstepping interpolation
 - decoupled motors
@@ -71,6 +71,9 @@ Contact
 License
 --
 
+See the LICENSES folder and the SPDX metadata for more details on other files.
+The project is [REUSE](https://reuse.software/) compliant
+
 Hardware design, CAD and PCB files, BOM, settings and other technical or design files are released under the following license:
 
 - CERN Open Hardware Licence Version 2 Weakly Reciprocal - **[CERN-OHL-W](LICENSE_CERN_OHL_W_V2.txt)**
@@ -79,14 +82,20 @@ Assembly manual, pictures, videos, presentations, description text and other typ
 
 - Creative-Commons-Attribution-ShareAlike 4.0 International - **[CC BY-SA 4.0](LICENSE_CC_BY_SA_4.0.txt)**
 
+Copyright
+--
+
+- Daniele Ingrassia, InMachines Ingrassia GmbH
+
+- Tobias Redlich, Helmut-Schmidt-Universität/Universität der Bundeswehr Hamburg
 
 Previous version
 --
 
-The previous versions of OLSK machines will always be available. 
+The previous versions of OLSK machines will always be available.
 
-**[OLSK Vinyl Cutter V2 Repository](OLSK_Vinyl_Cutter_V2)** 
+**[OLSK Vinyl Cutter V2 Repository](OLSK_Vinyl_Cutter_V2)**
 <div><img src="media/OLSK_VinylCutter_V2_1.png" width="30%"></div>
 
-**[OLSK Vinyl Cutter V1 Repository](OLSK_Vinyl_Cutter_V1)** 
+**[OLSK Vinyl Cutter V1 Repository](OLSK_Vinyl_Cutter_V1)**
 <div><img src="media/vinyl_1.png" width="30%"></div>
