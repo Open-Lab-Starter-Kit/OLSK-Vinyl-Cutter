@@ -1,0 +1,59 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: OLSK-Vinyl-Cutter
+Upstream-Contact: Daniele Ingrassia <daniele@inmachines.net>
+Source: https://github.com/Open-Lab-Starter-Kit/OLSK-Vinyl-Cutter.git
+
+##########################
+# OLSK Vinyl Cutter V3
+##########################
+
+Files:
+    Assembly_Manual/**
+    settings/**
+    .gitattributes
+    .gitignore
+    README.md
+Copyright:
+    Daniele Ingrassia <daniele@inmachines.net>
+    Tobias Redlich <tobias.redlich@hsu-hh.de>
+License: AGPL-3.0-or-later
+
+# RP2040
+Files:
+    firmware/RP2040-master.rar
+Copyright: Various
+License: GPL-3.0-or-later
+
+Files:
+    Assembly_Manual/public/**
+    media/**
+Copyright:
+    Daniele Ingrassia <daniele@inmachines.net>
+    Tobias Redlich <tobias.redlich@hsu-hh.de>
+License: CC-BY-SA-4.0
+
+# The fonts in this directory are under various licenses.
+# Please refer to the license notice in each individual file.
+Files: Assembly_Manual/public/fonts/**
+Copyright: Various authors
+License: LicenseRef-Magenta
+
+
+Files:
+    OLSK_Vinyl_Cutter_V3-BOM.xlsx
+    OLSK_Vinyl_Cutter_V3_WiringSchematic.pdf
+    cad/**
+Copyright:
+    Daniele Ingrassia <daniele@inmachines.net>
+    Tobias Redlich <tobias.redlich@hsu-hh.de>
+License: CERN-OHL-W-2.0
+
+Files:
+    LICENSE_CC_BY_SA_4.0.txt
+    LICENSE_CERN_OHL_W_V2.txt
+Copyright: NONE
+License: CC0-1.0
+
+##################################
+# OLSK Vinyl Cutter V1, V2 TBD
+##################################
